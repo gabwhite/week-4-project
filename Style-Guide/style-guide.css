@@ -1,0 +1,147 @@
+body {
+  font-family: Sanchez;
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: #444;
+  text-shadow: 1px 1px 0 #fff;
+  background: url("images/sandpaper.png") repeat;
+}
+
+h1 {
+  color: #594f4f;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h2, h3 {
+  color: #45ada8;
+}
+
+h4, h5, h6 {
+  color: #547980;
+}
+
+.section-title {
+  border-bottom: solid 1px #594f4f;
+  padding-bottom: 0.5em;
+  margin-top: 2em;
+}
+
+a {
+  color: #45ada8;
+  text-decoration: none;
+}
+a:hover {
+  color: #547980;
+}
+
+ul {
+  list-style: disc;
+  color: #45ada8;
+}
+ul li span {
+  color: #444;
+}
+
+blockquote {
+  background: #547980;
+  padding: 20px;
+  border: 1px solid #9de0ad;
+  text-shadow: none;
+  color: #9de0ad;
+  letterspacing: 1px;
+  font-style: italic;
+}
+
+form {
+  background: #547980;
+  padding: 40px;
+  width: 50%;
+}
+form .form-title, form label {
+  color: #9de0ad;
+  text-shadow: none;
+}
+form input[type=text], form input[type=email] {
+  width: 100%;
+  height: 30px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e5fcc2;
+}
+form input[type=text]:focus, form input[type=email]:focus {
+  outline: none;
+}
+form textarea {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e5fcc2;
+}
+form textarea:hover {
+  outline: none;
+}
+form input[type=submit] {
+  width: 100%;
+  padding: 15px;
+  background: #9de0ad;
+  color: #594f4f;
+  border: 0;
+  font-size: 18px;
+  font-family: Sanchez;
+}
+form input[type=submit]:hover {
+  color: #45ada8;
+}
+
+img {
+  border: 2px solid #e5fcc2;
+  padding: 10px;
+}
+
+img.avatar {
+  border-radius: 50%;
+}
+
+.video iframe {
+  padding: 20px;
+  background: #594f4f;
+  border: 2px solid #e5fcc2;
+}
+
+.button-big, .button-small {
+  background: #594f4f;
+  color: #9de0ad;
+  text-shadow: none;
+  padding: 15px;
+  font-size: 18px;
+}
+.button-big:hover, .button-small:hover {
+  color: #e5fcc2;
+}
+
+.button-small {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.button-inverse {
+  background: #9de0ad;
+  color: #594f4f;
+  text-shadow: none;
+  padding: 15px;
+  font-size: 18px;
+}
+.button-inverse:hover {
+  color: #45ada8;
+}
+
+.panel {
+  border: 3px solid #45ada8;
+  font-family: Sanchez;
+  font-size: 18px;
+  color: #45ada8;
+  text-align: center;
+  margin-top: 40px;
+}

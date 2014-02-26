@@ -1,0 +1,112 @@
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+.columns {
+  border: 1px solid #ccc;
+  padding: 10px;
+  /* margin-bottom: 20px;*/
+  text-align: center;
+  font-size: 16px;
+}
+
+.fullWidth {
+  margin: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.nav {
+  padding-left: 2.5%;
+}
+
+.img {
+  background: #ccc;
+  height: 300px;
+}
+
+ul.columns {
+  list-style: none;
+  border: 0;
+  padding: 0;
+}
+ul.columns li {
+  font-size: 12px;
+}
+
+ul.topButtons {
+  float: right;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+ul.topButtons li {
+  border: 0;
+}
+
+ul.button-group {
+  float: right;
+  text-align: right;
+}
+ul.button-group li {
+  float: none;
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.slider {
+  padding: 15% 2.5% 5% 2.5%;
+}
+.slider .caption {
+  padding: 5px;
+  text-align: left;
+}
+
+.about {
+  padding: 5% 2.5% 5% 2.5%;
+}
+
+.thumbHolder {
+  padding: 0;
+  height: 100%;
+}
+.thumbHolder a {
+  padding: 0;
+  border: 0;
+}
+
+.quote {
+  background: gray;
+}
+
+blockquote {
+  border: 0;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+}
+
+.orbit-container .orbit-slide-number {
+  display: none;
+}
+
+.large-centered {
+  border: 0;
+  padding: 0;
+}
+
+.button.dropdown {
+  float: left;
+  margin-right: 1px;
+}
+
+a.button.social {
+  display: inline;
+  padding: 20px;
+  float: right;
+  margin-right: 1px;
+}

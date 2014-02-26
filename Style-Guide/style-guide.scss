@@ -1,0 +1,172 @@
+// Variables! COLORS
+
+$headings : #45ADA8; //medium green blue. ALSO used for in text links 
+
+$subHeadings : #547980; //dark green blue. ALSO used for in text links hover
+
+$button : #594F4F; //grayish brown/ ALSO used on H1
+
+$buttonText : #9DE0AD; //light green 
+
+$buttonHover : #E5FCC2; //yellow-green. ALSO used for borders.
+
+//TYPOGRAPHY!
+
+body {
+	font-family: Sanchez;
+	font-size: 16px;
+	line-height: 1.5rem;
+	color: #444;
+	text-shadow: 1px 1px 0 #fff;
+	background: url('images/sandpaper.png') repeat;
+}
+
+h1 {
+	color: $button;
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+h2, h3  {
+	color: $headings;
+}
+
+h4, h5, h6 {
+	color: $subHeadings;
+}
+
+.section-title {
+	border-bottom: solid 1px $button;
+	padding-bottom: 0.5em;
+	margin-top: 2em;
+	}
+
+a {
+	color: $headings;
+	text-decoration: none;
+
+	&:hover {
+		color: $subHeadings;
+	}
+}
+
+ul {
+	list-style: disc;
+	color: $headings;
+
+	li span{
+		color: #444;
+	}
+}
+
+blockquote {
+	background: $subHeadings;
+	padding:20px;
+	border: 1px solid $buttonText;
+	text-shadow: none;
+	color: $buttonText;
+	letterspacing: 1px;
+	font-style: italic;
+}
+
+form {
+	background: $subHeadings;
+	padding: 40px;
+	width: 50%;
+
+	.form-title, label {
+		color: $buttonText;
+		text-shadow: none;
+	}
+
+	input[type=text], input[type=email] {
+		width: 100%;
+		height: 30px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		border: 1px solid $buttonHover;
+		
+		&:focus{
+			outline:none;
+		}
+	}
+
+	textarea {
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		border: 1px solid $buttonHover;
+
+		&:hover{
+			outline:none;
+		}
+	}
+
+	input[type=submit]{
+		width: 100%;
+		padding: 15px;
+		background: $buttonText;
+		color: $button;
+		border: 0; 
+		font-size: 18px;
+		font-family: Sanchez;
+
+		&:hover{
+			color: $headings;
+		}
+	}
+}
+
+img {
+	border: 2px solid $buttonHover;
+	padding: 10px;
+}
+
+img.avatar{
+	border-radius: 50%;
+}
+
+.video iframe {
+	padding: 20px; 
+	background: $button;
+	border: 2px solid $buttonHover;
+}
+
+.button-big, .button-small{
+	background: $button;
+	color: $buttonText;
+	text-shadow: none;
+	padding: 15px; 
+	font-size: 18px;
+
+	&:hover{
+		color: $buttonHover;
+	}
+}
+
+.button-small{
+	font-size: 12px;
+	padding: 10px;
+}
+
+.button-inverse{
+	background: $buttonText;
+	color: $button;
+	text-shadow: none;
+	padding: 15px; 
+	font-size: 18px;
+
+	&:hover{
+		color: $headings;
+	}
+}
+
+.panel {
+	border: 3px solid $headings;
+	font-family: Sanchez;
+	font-size: 18px;
+	color: $headings;
+	text-align: center;
+	margin-top:40px;
+}
